@@ -1,7 +1,5 @@
 # p5.js Side-Scroller Game
 
-[Play the game online](https://afruza-bhuiyan.github.io/p5js-side-scroller/)
-
 A 2D side-scrolling platform game built using JavaScript and the p5.js library. 
 
 The game features character movement, jumping, scrolling environments, enemies, collectables, platforms, canyons, lives, scoring and a level-completion system.
@@ -14,6 +12,10 @@ This project was originally conceived as part of my university coursework. It wa
 2. Open the project using a local web server.
 3. Open `index.html` in your browser.
 4. Use the keyboard controls to play.
+
+Or
+
+  [Play the game online](https://afruza-bhuiyan.github.io/p5js-side-scroller/)
 
 ## Gameplay
 
