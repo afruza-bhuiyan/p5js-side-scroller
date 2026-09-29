@@ -863,7 +863,7 @@ function keyPressed()
     }
 
     //going down immediately
-    if(key == 'S')
+    if(key == 'S' || keyCode == DOWN_ARROW)
     {
         gameChar_y = floorPos_y;
     }
@@ -999,7 +999,7 @@ function drawGameChar()
         rect(gameChar_x+12,gameChar_y-70,10,20,5);//right arm
         ellipse(gameChar_x,gameChar_y-65,25,25);//head
         fill(255);    
-        rect(gameChar_x-10,gameChar_y-68,20,5);//eye
+        rect(gameChar_x-10.5,gameChar_y-68,20,5);//eye
         ellipse(gameChar_x,gameChar_y-42,10,10);//chest
     }
     else
